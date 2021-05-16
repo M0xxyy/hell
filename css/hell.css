@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #efefef;
+}
+
+main {
+    width: 70%;
+    padding: 50px;
+    margin: auto;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: 0 0 10px 1px gray;
+}
+
+.photo {
+    width: calc(50% - 40px);
+    height: calc((35vw - 40px) / 16 * 9);
+    margin: 20px;
+    background-color: orange;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 0 10px 1px gray;
+}
+
+.photo:hover {
+    transform: rotate(3deg) scale(1.07);
+    box-shadow: 0 0 20px 1px rgba(0,0,0,0.4);
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.photo1 {
+    background-image: url(../img/a.jpg);
+}
+
+.photo2 {
+    background-image: url(../img/b.jpg);
+}
+
+.photo3 {
+    background-image: url(../img/d.jpg);
+}
+
+.photo4{
+    background-image: url(../img/download\ \(1\).jpg);
+}
+
+.photo5{
+    background-image: url(../img/download\ \(2\).jpg);
+}
+
+.photo6{
+    background-image: url(../img/download\ \(3\).jpg);
+}
+
+.photo7{
+    background-image: url(../img/download.jpg);
+}
+
+.photo8{
+    background-image: url(../img/e.jpg);
+}
+
+.photo9{
+    background-image: url(../img/f.jpg);
+}
+
+.photo10{
+    background-image: url(../img/g.jpg);
+}
+
+.photo11{
+    background-image: url(../img/h.jpg);
+}
+
+.photo12{
+    background-image: url(../img/i.jpg);
+}
